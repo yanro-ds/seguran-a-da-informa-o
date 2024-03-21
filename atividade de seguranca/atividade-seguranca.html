@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Style>
+        body{
+            background-color: rgb(190,234,241);
+        }
+          h1{
+            color: brown;
+            text-align: center;
+          }  
+          p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+          }
+        
+    </Style>
+    <title>atividade-segurança </title>
+    
+</head>
+<body>
+    <h1>Insira seu Nome:</h1>
+    <Input type="text " id="nameInput"/>
+    <button onclick="displayName()">Coloque Aqui</button>
+    <p id="nameOutput"></p>
+    <script>
+        function displayName() {
+            var name = document.getElementById("nameInput").value;
+            //recebe o texo guardado
+        document.getElementById("nameOutput").innerHTML = "Seja bem vindo pessoa," + name + "acesse o APP!";
+        }
+    </script>
+</body>
+</html>
