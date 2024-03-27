@@ -127,6 +127,19 @@ main {
 
 }
 
+textarea {
+    width: 98%;
+    height: 8rem;
+}
+
+#result {
+    padding: 0.3rem;
+    background-color: rgba(143, 216, 8, 0.856);
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
 img {
     width: 300px;
 }
@@ -154,13 +167,17 @@ img {
 .pre-projeto {
     display: flex;
 }
+
 .topologia {
     display: flex;
 }
+
 .wifi {
     display: flex;
 }
-.comutador{
+
+.comutador {
     display: flex;
 }
+
 /*** FEITO POR: LARISSA V. KICH ***/
