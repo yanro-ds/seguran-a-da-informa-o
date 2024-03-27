@@ -14,7 +14,7 @@ function cripto() {
     //Se a index receber um valor prencher até -1 ele ira devolver index pos e se for 0 ele ira devolver index pre// 
     //O 0 recebera um caracter//
     for (i = 0; i < chars; i++) {
-        let index = pre.indexOf(split[i])//faz um loop ate -1//
+        let index = pre.indexOf(split[i])//Faz um loop até -1//
 
         if (index === -1) {
             split[i] = split[i]
